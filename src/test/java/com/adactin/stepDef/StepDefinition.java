@@ -19,7 +19,7 @@ public class StepDefinition extends BaseClass {
 	public void user_should_launch_the_adactin_application() throws Throwable {
 	
 		driver.get(PropertyReaderManager.getInstance().getPr().getUrl());
-		//new entry
+		
  
 	}
 
