@@ -1,22 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="0">
-<testcase classname="User should login the Adactin Application" name="To verify whether the check-outdate field accepts a later date than check in date - 102" time="0">
-<system-out><![CDATA[Given User should launch the adactin application............................skipped
-Then User should Validate the login page....................................skipped
-Then User enter the username "<username>" and password "<password>".........skipped
-Then User enter the login button............................................skipped
-Then user should validate the username......................................skipped
-Then user click the logout Button...........................................skipped
-Then User verify that correct username is displayed on the login page.......skipped
-Then User should location as in test data "Sydney"..........................skipped
-And User should hotel as in test data "Hotel Creek".........................skipped
-And User should room type as in test data "Standard"........................skipped
-And User should no-of-rooms as in test data "1".............................skipped
-And User Enter check-in-date as in test data "05/06/2019"...................skipped
-And User Enter check-out-date as in test data "03/06/2019"..................skipped
-Then User Verify that system gives an error message for check in date.......skipped
-Then User Verify that system gives an error message for check out date......skipped
-Then User click the search button...........................................skipped
-]]></system-out>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" time="0">
+<testcase classname="dummy" name="dummy">
+<skipped message="No features found"/>
 </testcase>
 </testsuite>

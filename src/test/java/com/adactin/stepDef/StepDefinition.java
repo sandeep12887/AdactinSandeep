@@ -1,6 +1,7 @@
 package com.adactin.stepDef;
 
-import org.baseclass.BaseClass;
+
+import org.baseclass.BaseeeClasss;
 import org.openqa.selenium.WebDriver;
 
 
@@ -11,7 +12,7 @@ import com.runner.TestRunner;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 
-public class StepDefinition extends BaseClass {
+public class StepDefinition extends BaseeeClasss {
 	public WebDriver driver = TestRunner.driver;
 	PageObjectManager pm=new PageObjectManager(driver);
 

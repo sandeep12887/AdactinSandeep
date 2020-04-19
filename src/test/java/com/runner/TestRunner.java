@@ -3,7 +3,7 @@ package com.runner;
 
 import java.io.File;
 
-import org.baseclass.BaseClass;
+import org.baseclass.BaseeeClasss;
 import org.junit.AfterClass;
 import org.junit.BeforeClass;
 import org.junit.runner.RunWith;
@@ -34,7 +34,7 @@ public class TestRunner {
 	public static void driverinial() throws Throwable {
 String browserName = PropertyReaderManager.getInstance().getPr().getBrowserName();
 System.out.println("The browser name is :" + browserName);
-driver=BaseClass.getBrowser(browserName);
+driver = BaseeeClasss.getBrowser("chrome");
 //driver.get(PropertyReaderManager.getInstance().getPr().getUrl());
 
 
